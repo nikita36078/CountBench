@@ -13,7 +13,7 @@ public class MainClass {
 	  long after = System.currentTimeMillis();
 	  long diff = after - before;
 	  String str = Long.toString(diff);
-	  JOptionPane.showMessageDialog(null, "Время: "+str+" мс");
+	  JOptionPane.showMessageDialog(null, "Р’СЂРµРјСЏ: "+str+"РјСЃ");
   }
  
 }
