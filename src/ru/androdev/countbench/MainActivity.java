@@ -2,6 +2,7 @@ package ru.androdev.countbench;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,9 +20,11 @@ public class MainActivity extends Activity {
 		String str = Long.toString(diff);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		String ms = getString(R.string.ms);
+		String time = getString(R.string.time);
 		display = (TextView) findViewById(R.id.textView2);
-		display.append(str+"мс");
-		Toast.makeText(this, "Время: "+str+" мс", Toast.LENGTH_LONG).show();
+		display.append(str+ms);
+		Toast.makeText(this, time+str+ms, Toast.LENGTH_LONG).show();
 	  }
 	 @Override
 	  protected void onDestroy() {

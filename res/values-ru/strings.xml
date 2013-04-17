@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">CountBench</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="time">Время: </string>
+    <string name="ms"> мс</string>
 
 </resources>
